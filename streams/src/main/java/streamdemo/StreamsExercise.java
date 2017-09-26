@@ -9,7 +9,7 @@ import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.KStreamBuilder;
 
-public class StreamDemo {
+public class StreamsExercise {
 
     public static void main(String[] args) throws Exception {
 
@@ -34,7 +34,7 @@ public class StreamDemo {
         KStream<String, String> uppercased = dm.mapValues(String::toUpperCase);
 
         // Write the uppercased results to a new Kafka Topic called "UppercasedDmsg".
-        uppercased.to("UppercasedDmsg");
+        uppercased.to("UppercasedDmesg");
 
         KafkaStreams streams = new KafkaStreams(builder, streamsConfiguration);
         streams.start();
