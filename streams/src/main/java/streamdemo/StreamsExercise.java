@@ -1,4 +1,4 @@
-package solution;
+package streamdemo;
 
 import java.util.Properties;
 
