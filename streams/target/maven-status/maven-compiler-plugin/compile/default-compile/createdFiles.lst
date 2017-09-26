@@ -1,0 +1,16 @@
+shakespeare_example/model/ShakespeareKey.class
+stubs/OutputAvroTopic.class
+shakespeare_example/model/ShakespeareValue$1.class
+shakespeare_example/SpecificAvroSerde.class
+stubs/StreamsExercise.class
+shakespeare_example/StreamsVersionOfShakespeareAvroConversion.class
+solution/OutputAvroTopic.class
+partial/OutputAvroTopic.class
+shakespeare_example/SpecificAvroDeserializer.class
+shakespeare_example/model/ShakespeareValue$Builder.class
+shakespeare_example/SpecificAvroSerializer.class
+shakespeare_example/model/ShakespeareKey$1.class
+shakespeare_example/model/ShakespeareValue.class
+solution/StreamsExercise.class
+shakespeare_example/model/ShakespeareKey$Builder.class
+partial/StreamsExercise.class
